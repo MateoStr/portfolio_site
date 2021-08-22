@@ -1,4 +1,5 @@
 import React from 'react'
+import NavbarItem from './NavbarItem.js'
 
 
 //Styles
@@ -23,10 +24,11 @@ const LogoStyle = {
 
 const Navbar = (props) => {
     return(
-        <div style={NavbarStyle}>
+        <div style={NavbarStyle} id = "Navbar">
             <div style = {LogoStyle}>
                 <h2><b>Mateo Strasdas</b></h2>
             </div>
+            <NavbarItem label = "TEST" link = "https://www.google.com" />
         </div>
     );
 }
