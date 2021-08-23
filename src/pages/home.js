@@ -1,19 +1,28 @@
 import * as React from "react"
 import Card from "./../components/Card.js"
+import Navbar from "./../components/Navbar.js"
+import Eyecatch from "./../components/Eyecatch.js"
+import ProjectsHolder from "./../components/ProjectsHolder.js"
 
-
+//Styles
+const wrapperStyle = {
+    minHeight : "100vh",
+    minWidth : "100vw",
+    backgroundColor : "#6b6b6b",
+    margin : "0",
+    left : "0",
+    position : "absolute",
+    zIndex : "-2"
+}
 
 const Home = () => {
     return(
-        <>
-        <h1>Hello world!</h1>     
-        <Card contents="SampleText" />
-        <Card contents="SampleText" />
-        <Card contents="SampleText" />
-        <Card contents="SampleText" />
-        <Card contents="SampleText" />
-        <Card contents="SampleText" />
-        <Card contents="SampleText" />
+        <> 
+        <div id = "wrapper" style = {wrapperStyle}>
+        <Navbar />
+        <Eyecatch />
+        <ProjectsHolder />
+        </div>
         </>
     );
 }
