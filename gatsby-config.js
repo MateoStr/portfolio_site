@@ -1,7 +1,17 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "MateoStrasdas",
+    title: "Mateo Strasdas",
   },
-  plugins: ["gatsby-plugin-gatsby-cloud"],
+  plugins: ["gatsby-plugin-gatsby-cloud",
+  {resolve: `gatsby-plugin-google-fonts`,
+  options: {
+    fonts: [
+      `Urbanist`
+    ],
+    display: 'swap'
+
+  }
+}
+],
 };

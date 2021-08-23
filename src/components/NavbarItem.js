@@ -1,14 +1,23 @@
 import * as React from "react"
 
 const NavbarItemStyle = {
-    size: "20px"
-
+    fontSize: "30px",
+    padding: "5px",
+    display : "inline",
+    float: "left",
+    right: "0",
+    marginRight : "4px",
+    borderRadius: "10px",
+    backgroundColor: "#404040",
+    color: "white",
+    visittedColor: "white",
+    textDecoration: "none"
 }
 
 
 const NavbarItem = (props) => {
     return(
-        <a href = {props.link}>{props.label}</a>
+       <li><a href = {props.link} style = {NavbarItemStyle}>{props.label}</a></li>
     )
 }
 

@@ -1,6 +1,5 @@
 import React from 'react'
-import NavbarItem from './NavbarItem.js'
-
+import NavbarItemHolder from './NavbarItemHolder.js'
 
 //Styles
 const NavbarStyle = {
@@ -28,7 +27,7 @@ const Navbar = (props) => {
             <div style = {LogoStyle}>
                 <h2><b>Mateo Strasdas</b></h2>
             </div>
-            <NavbarItem label = "TEST" link = "https://www.google.com" />
+            <NavbarItemHolder />
         </div>
     );
 }
