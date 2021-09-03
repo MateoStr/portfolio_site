@@ -10,14 +10,14 @@ const Bio = () => {
         <div style = {bioStyle}>
             <h1>Who am I?</h1>
             <p>
-                My name is Mateo Strasdas. 
+                My name is Mateo Strasdas.<br></br> 
                 I am a 2021 graduate of Camosun College's Information and Computer Systems Program.<br></br>
                 Like many of my colleagues, my interest in cmputer software was kickstarted by a desire to make games.<br></br>
                 This led me to hone my programming skills by whatever means were available to me at the age of 15 (youtube, mostly)<br></br>
                 I maintained this autodidactic methodology of acquiring programming skills until I graduated high school.<br></br>
                 From there, I immediately enrolled in Computer Science at UVIC. <br></br>
                 After 2 years, I found that the content available to me at UVIC was too theoretical for my liking, and transferred to Camosun for their more hands-on approach to learning.<br></br>
-                Now that I have finished post secondary education in the information techology sector, I look forward to applying my skills to further theadvancement of technology.
+                Now that I have finished post secondary education in the information techology sector, I look forward to applying my skills to further the advancement of technology.
             </p>
                 <br></br>
                 <h2>What do I do now?</h2>
