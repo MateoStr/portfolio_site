@@ -1,5 +1,5 @@
+//imports
 import * as React from "react"
-//import * as THREE from 'three'
 
 //styles
 const eyeCatchStyle = {
@@ -12,24 +12,23 @@ const eyeCatchStyle = {
     backgroundColor: "#171717",
     textAlign : "center",
     verticalAlign : "middle",
-    zIndex : "-1"
+    zIndex : "-2"
 }
 
 const eyecatchTextStyle = {
     position: "relative"
 }
 
-
-
-
-function THREE(){
-    alert("Hello!");
+const imgStyle = {
+    objectFit: "cover",
+    zIndex: "-1"
 }
+
 //elements
 const Eyecatch = () => {
     return(
         <div id = "eyecatch" style = {eyeCatchStyle}>
-            <script>THREE()</script>
+            <img src = "../images/eyecatch.jpg" alt = "gulf islands BC" style = {imgStyle}/>
             <h1 style = {eyecatchTextStyle}>TODO</h1>
                 
                 

@@ -3,6 +3,7 @@ import Card from "./../components/Card.js"
 import Navbar from "./../components/Navbar.js"
 import Eyecatch from "./../components/Eyecatch.js"
 import ProjectsHolder from "./../components/ProjectsHolder.js"
+import Bio from "./../components/Bio.js"
 
 //Styles
 const wrapperStyle = {
@@ -21,6 +22,7 @@ const Home = () => {
         <div id = "wrapper" style = {wrapperStyle}>
         <Navbar />
         <Eyecatch />
+        <Bio />
         <ProjectsHolder />
         </div>
         </>

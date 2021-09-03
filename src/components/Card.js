@@ -2,14 +2,13 @@ import * as React from "react"
 
 const cardStyle = {
     backgroundColor: "#375737",
-    width: "350px",
-    height: "500px",
+    width: "30%",
     margin: "5%",
     paddingLeft:"20px",
     paddingRight:"20px",
-    float: "left",
+    display: "inline-block",
     textAlign: "center",
-    borderRadius: "15px"
+    borderRadius: "15px",
 };
 
 const Card = (props) => {
