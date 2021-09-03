@@ -11,6 +11,7 @@ const NavbarStyle = {
     left : "0",
     right : "0",
     position : "fixed",
+    textAlign : "right",
     zIndex : "1"
 };
 
